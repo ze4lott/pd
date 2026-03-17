@@ -1,0 +1,11 @@
+#N canvas 0 0 1440 872 12;
+#X obj 114 184 kick, f 44;
+#X obj 190 120 r kd;
+#X obj 266 119 r kp;
+#X obj 342 116 r ks;
+#X obj 419 116 r ksine;
+#X obj 113 222 outlet~;
+#X obj 114 120 r kbang;
+#X text 511 118 Args;
+#X connect 0 0 5 0;
+#X connect 6 0 0 0;

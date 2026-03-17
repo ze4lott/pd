@@ -1,0 +1,11 @@
+#N canvas 0 0 1440 872 12;
+#X obj 761 243 hradio 33 1 0 12 empty empty 0\ \ \ \ 1\ \ \ \ 2\ \ \ \ 3\ \ \ 4\ \ \ 5\ \ \ 6\ \ \ 7\ \ \ 8\ \ \ 9\ \ 10\ \ 11 0 -10 0 14 #c6feff #000000 #000000 0;
+#X obj 491 355 inlet;
+#X obj 515 410 *;
+#X obj 761 281 + 1;
+#X obj 501 460 outlet;
+#X obj 561 355 inlet;
+#X connect 0 0 3 0;
+#X connect 1 0 2 0;
+#X connect 2 0 4 0;
+#X connect 5 0 2 1;

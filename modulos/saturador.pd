@@ -1,0 +1,18 @@
+#N canvas 0 28 1440 872 12;
+#X obj 111 173 inlet~;
+#X obj 319 176 inlet;
+#X obj 157 402 outlet~;
+#X text 81 141 Entrada de audio;
+#X text 231 402 salida de audio;
+#X text 278 145 Nivel de saturación;
+#X obj 544 302 cnv 19 106 60 empty empty empty 20 12 0 12 #e0e0e0 #404040 0;
+#X obj 548 340 saturador;
+#X floatatom 608 313 5 0 0 0 - - - 0;
+#X obj 157 275 *~ 1;
+#X text 477 145 ** el nivel máximo ideal es 1000;
+#X obj 157 339 clip~ -0.5 0.5;
+#X connect 0 0 9 0;
+#X connect 1 0 9 1;
+#X connect 8 0 7 1;
+#X connect 9 0 11 0;
+#X connect 11 0 2 0;

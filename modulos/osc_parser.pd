@@ -1,0 +1,8 @@
+#N canvas 376 152 450 300 12;
+#X obj 140 160 oscparse;
+#X listbox 140 192 13 0 0 0 - - - 0;
+#X msg 140 221 \; \$1 \$2 \;;
+#X obj 140 128 netreceive -u -b 3001;
+#X connect 0 0 1 0;
+#X connect 1 0 2 0;
+#X connect 3 0 0 0;
