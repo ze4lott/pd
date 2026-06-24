@@ -66,12 +66,6 @@
 #X obj 872 670 kick, f 44;
 #X text 26 24 Disparador (bang);
 #X floatatom 607 181 5 0 0 0 - - - 0;
-#X obj 367 547 saturador;
-#X obj 461 529 r ksat;
-#X obj 367 571 lop~;
-#X obj 367 595 hip~;
-#X obj 467 552 r klop;
-#X obj 451 576 r khip;
 #X connect 0 0 1 0;
 #X connect 1 0 11 0;
 #X connect 2 0 3 0;
@@ -81,7 +75,7 @@
 #X connect 3 0 10 0;
 #X connect 3 0 6 0;
 #X connect 4 0 3 1;
-#X connect 5 0 38 0;
+#X connect 5 0 20 0;
 #X connect 6 0 7 0;
 #X connect 6 0 13 0;
 #X connect 7 0 0 0;
@@ -112,9 +106,3 @@
 #X connect 33 0 35 4;
 #X connect 34 0 35 0;
 #X connect 37 0 12 0;
-#X connect 38 0 40 0;
-#X connect 39 0 38 1;
-#X connect 40 0 41 0;
-#X connect 41 0 20 0;
-#X connect 42 0 40 1;
-#X connect 43 0 41 1;
