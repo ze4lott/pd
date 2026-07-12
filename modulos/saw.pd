@@ -1,14 +1,14 @@
-#N canvas 0 0 1440 872 12;
+#N canvas 193 154 1440 872 12;
 #X floatatom 91 140 5 0 0 2 - - - 0;
-#X obj 24 4 inlet~;
-#X obj 315 324 hradio 34 1 0 4 empty empty empty 0 -10 0 12 #c6feff #000000 #000000 0;
+#X obj 18 13 inlet~;
+#X obj 291 330 hradio 34 1 0 4 empty empty empty 0 -10 0 12 #c6feff #000000 #000000 0;
 #X obj 252 453 *~;
 #X msg 89 431 1;
 #X msg 126 431 0;
 #X obj 91 113 inlet;
 #X obj 94 217 f;
 #X obj 105 270 bng 19 250 50 0 empty m7 empty 0 -10 0 12 #fcfcfc #000000 #000000;
-#X obj 317 296 inlet;
+#X obj 293 302 inlet;
 #X obj 37 467 *~ 1;
 #X text 8 -27 Entrada de audio;
 #X obj 933 18 cnv 19 310 140 empty empty SAW 20 12 0 12 #c7c6ff #404040 0;
@@ -25,7 +25,7 @@
 #X obj 249 240 sel 2;
 #X msg 249 266 1;
 #X msg 281 266 0;
-#X obj 372 123 inlet;
+#X obj 381 123 inlet;
 #X obj 1048 98 hsl 110 19 0 900 0 0 empty empty FM_index -2 -7 0 11 #c6feff #000000 #000000 0 1;
 #X text 869 437 Si es 0 activamos el oscilador local;
 #X text 869 472 Si es 1 se aplica modulación de amplitud (AM);
