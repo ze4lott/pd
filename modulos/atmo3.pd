@@ -1,4 +1,4 @@
-#N canvas 4 4 1920 1037 12;
+#N canvas 0 0 1440 872 12;
 #X obj 868 754 saw, f 49;
 #X obj 227 251 *~;
 #X obj 364 222 hsl 162 19 0 1 0 0 empty empty empty -2 -10 0 12 #fcfcfc #000000 #000000 0 1;
@@ -26,7 +26,7 @@
 #X obj 175 597 *~ 1;
 #X obj 866 705 *~ 1;
 #X obj 510 601 * 2560;
-#X floatatom 220 64 5 0 0 0 - - - 0;
+#X floatatom 247 79 5 0 0 0 - - - 0;
 #X obj 172 799 reverb, f 22;
 #X obj 72 753 hsl 102 29 0 1 0 0 empty empty roomsize -2 -10 0 12 #c6feff #000000 #000000 0 1;
 #X obj 218 751 hsl 102 29 0 1 0 0 empty empty wet -2 -10 0 12 #c6feff #000000 #000000 0 1;
@@ -49,11 +49,11 @@
 #X msg 293 654 4;
 #X msg 1092 437 0;
 #X obj 293 91 / 10;
-#X msg 198 116 \$1 \, 0 9000;
 #X obj 198 140 line;
-#X obj 187 85 f;
+#X obj 198 88 f;
 #X msg 537 104 0;
 #X msg 197 448 4;
+#X msg 198 116 \$1 \, 0 11000;
 #X connect 0 0 23 0;
 #X connect 1 0 23 0;
 #X connect 2 0 1 1;
@@ -76,13 +76,13 @@
 #X connect 18 0 15 2;
 #X connect 19 0 15 3;
 #X connect 20 0 15 0;
-#X connect 20 0 52 0;
+#X connect 20 0 51 0;
 #X connect 21 0 32 0;
 #X connect 23 0 9 1;
 #X connect 24 0 34 0;
 #X connect 25 0 0 0;
 #X connect 26 0 6 0;
-#X connect 27 0 52 1;
+#X connect 27 0 51 1;
 #X connect 28 0 43 0;
 #X connect 29 0 28 1;
 #X connect 30 0 28 2;
@@ -107,8 +107,8 @@
 #X connect 47 0 14 2;
 #X connect 48 0 11 1;
 #X connect 49 0 11 0;
-#X connect 50 0 51 0;
-#X connect 51 0 7 0;
-#X connect 52 0 50 0;
-#X connect 53 0 7 1;
-#X connect 54 0 8 1;
+#X connect 50 0 7 0;
+#X connect 51 0 54 0;
+#X connect 52 0 7 1;
+#X connect 53 0 8 1;
+#X connect 54 0 50 0;
