@@ -1,4 +1,4 @@
-#N canvas 0 0 1440 872 12;
+#N canvas 139 169 1440 872 12;
 #X obj 175 388 phasor~;
 #X obj 174 415 expr~ $v1 > 0.5;
 #X obj 143 171 bng 19 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000;
@@ -64,7 +64,6 @@
 #X obj 1149 555 vsl 29 100 0 100 0 0 empty empty sine 0 -9 0 12 #c6feff #000000 #000000 0 1;
 #X obj 870 626 bng 26 250 50 0 empty empty Bang! -1 -10 0 12 #c6ffc7 #000000 #000000;
 #X obj 872 670 kick, f 44;
-#X text 26 24 Disparador (bang);
 #X floatatom 607 181 5 0 0 0 - - - 0;
 #X connect 0 0 1 0;
 #X connect 1 0 11 0;
@@ -105,4 +104,4 @@
 #X connect 32 0 35 3;
 #X connect 33 0 35 4;
 #X connect 34 0 35 0;
-#X connect 37 0 12 0;
+#X connect 36 0 12 0;
