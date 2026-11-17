@@ -1,4 +1,4 @@
-#N canvas 0 44 1920 997 12;
+#N canvas 0 14 1680 1007 12;
 #X obj 989 781 dac~, f 13;
 #X obj 589 216 cnv 19 164 276 empty empty Programas 20 12 0 12 #c7c6ff #404040 0;
 #X obj 209 215 cnv 19 164 276 empty empty FM_2_Synthesizer 20 12 0 12 #c7c6ff #404040 0;
@@ -88,7 +88,7 @@
 #X restore 608 438 pd programa6;
 #X obj 24 214 cnv 19 164 276 empty empty FM_1_Synthesizer 20 12 0 12 #c7c6ff #404040 0;
 #X obj 50 337 r~ fm1;
-#N canvas 0 44 1920 997 programa1 0;
+#N canvas 0 14 1680 1007 programa1 0;
 #X obj 523 374 bng 19 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000;
 #X obj 325 528 s f2;
 #X obj 603 456 s gm2;
@@ -102,10 +102,10 @@
 #X obj 477 537 s fm2;
 #X obj 477 503 / 100;
 #X text 68 473 Enviamos parametros a las propiedades de los generadores (AM/FM), f 33;
-#X text 833 462 decay 1;
+#X text 841 460 decay 1;
 #X text 38 281 Aplicamos un 'firewall' con spigot. recibimos un tempo (m7);
 #X text 940 46 Recibimos la señal aletaoria (random) para evaluar con sel y luego usar contra Spigot a través de mensajes 1 y 0;
-#X text 359 55 ============ Programa 1 ====== Generador 2 : FM_2;
+#X text 261 106 ============ Programa 1 ====== Generador 2 : FM_2;
 #X text 630 518 gain mod;
 #X floatatom 774 189 5 0 0 0 - - - 0;
 #X obj 633 186 sel 0 1, f 14;
@@ -329,7 +329,7 @@
 #X obj 51 371 hip~ 1600;
 #X obj 51 395 lop~ 7000;
 #X obj 136 383 tgl 33 0 empty empty empty 0 -10 0 12 #e3c6ff #000000 #000000 0 1;
-#N canvas 206 530 1920 997 FM1 0;
+#N canvas 0 14 1684 997 FM1 0;
 #X obj 255 383 +~;
 #X obj 340 381 *~;
 #X obj 341 302 osc~;
@@ -382,7 +382,7 @@
 #X connect 24 0 10 1;
 #X connect 25 0 17 1;
 #X restore 50 256 pd FM1;
-#N canvas 4 44 1920 997 FM2 0;
+#N canvas 0 14 1684 997 FM2 0;
 #X obj 197 331 +~;
 #X obj 465 276 *~;
 #X obj 194 409 *~;
@@ -469,7 +469,7 @@
 #X obj 427 397 lop~ 600;
 #X obj 427 421 *~;
 #X obj 506 385 tgl 33 0 empty empty empty 0 -10 0 12 #e3c6ff #000000 #000000 0 1;
-#N canvas 4 44 1920 997 FM3 0;
+#N canvas 0 14 1684 997 FM3 0;
 #X obj 197 331 +~;
 #X obj 465 276 *~;
 #X obj 194 409 *~;
